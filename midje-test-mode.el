@@ -3,13 +3,13 @@
 ;; Author: Ben Poweski  <bpoweski@gmail.com>
 ;; Version: 0.0.1
 ;; Keywords: languages, lisp, test
-;; Package-Requires: ((nrepl "0.1.5") (clojure-mode "1.11"))
+;; Package-Requires: ((clojure-mode "1.7") (cider "0.3.0"))
 
 ;; This file is not part of GNU Emacs.
 
 ;;; Commentary:
 
-;; This library is based on the clojure-test-mode by Phil Hagelberg.
+;; This library is based on the clojure-test-mode by Phil Hagelberg et al.
 
 ;;; History:
 
