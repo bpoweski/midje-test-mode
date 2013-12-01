@@ -139,9 +139,7 @@
   (let ((map (make-sparse-keymap)))
     (define-key map (kbd "C-c ,")   'midje-test-run-tests)
     (define-key map (kbd "C-c C-,") 'midje-test-run-tests)
-    ;;(define-key map (kbd "C-c M-,") 'midje-test-run-test)
     (define-key map (kbd "C-c k")   'midje-test-clear)
-    (define-key map (kbd "C-c '")   'midje-test-show-result)
     map))
 
 ;;;###autoload
