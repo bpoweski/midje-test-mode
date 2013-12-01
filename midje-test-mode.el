@@ -27,7 +27,7 @@
      :background "orange red")
     (((class color) (background dark))
      :background "firebrick"))
-  "Face for failures in expectations tests."
+  "Face for failures in facts."
   :group 'midje-test-mode)
 
 (defface midje-test-error-face
@@ -35,7 +35,7 @@
      :background "orange1")
     (((class color) (background dark))
      :background "orange4"))
-  "Face for errors in expectations tests."
+  "Face for errors in facts."
   :group 'midje-test-mode)
 
 (defface midje-test-success-face
@@ -45,7 +45,7 @@
     (((class color) (background dark))
      :foreground "black"
      :background "green"))
-  "Face for success in expectations tests."
+  "Face for success in facts."
   :group 'midje-test-mode)
 
 (defvar midje-test-count         0)
