@@ -16,6 +16,18 @@ and `require`ing it. Many people favour the folder `~/.emacs.d/vendor`:
 
 midje-test-mode depends on clojure-mode.
 
+### MELPA
+
+If you're feeling adventurous and you'd like to use MELPA add this bit
+of code instead:
+
+```lisp
+(require 'package)
+(add-to-list 'package-archives
+             '("melpa" . "http://melpa.milkbox.net/packages/") t)
+(package-initialize)
+```
+
 ### Keyboard shortcuts
 
 Keyboard shortcut                    | Description
