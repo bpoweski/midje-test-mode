@@ -116,6 +116,7 @@
   (midje-test-clear)
   (midje-test-eval
    (format "(do (require 'midje.repl)
+                (midje.repl/forget-facts)
                 (midje.config/with-augmented-config {:print-level :print-nothing}
                   (load-file \"%s\")
                   (for [fact (midje.repl/fetch-facts '%s)
